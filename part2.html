@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Part 2: Grid System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <a href="#">DevPortfolio</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Part 1: Flexbox</a></li>
+                <li><a href="part2.html" class="active">Part 2: Grid</a></li>
+                <li><a href="part3.html">Part 3: Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="task2-section" class="section-block">
+            <h1>Part 2: CSS Grid Layouts</h1>
+            <h2>Page Layout with Grid Areas</h2>
+
+            <div class="grid-layout-container">
+                <header class="grid-header">
+                    <h3>CSS Grid Architecture Overview</h3>
+                </header>
+
+                <aside class="grid-sidebar">
+                    <h4>Core Concepts</h4>
+                    <ul class="sidebar-menu">
+                        <li><strong>grid-template-areas</strong></li>
+                        <li><strong>grid-template-columns</strong></li>
+                        <li><strong>grid-template-rows</strong></li>
+                        <li><strong>gap / row-gap / column-gap</strong></li>
+                    </ul>
+                </aside>
+
+                <main class="grid-main">
+                    <h3>Why CSS Grid?</h3>
+                    <p>CSS Grid Layout provides a grid-based layout system, with rows and columns, making it much easier to design web pages without having to use floats and positioning.</p>
+                    
+                    <div class="info-cards-wrapper">
+                        <div class="info-card">
+                            <h4>2D Positioning</h4>
+                            <p>Unlike Flexbox (which is primarily 1D), Grid handles both rows and columns simultaneously.</p>
+                        </div>
+                        <div class="info-card">
+                            <h4>Named Areas</h4>
+                            <p>Using <code>grid-area</code> allows intuitive visual placement of structural elements like headers and sidebars.</p>
+                        </div>
+                    </div>
+                </main>
+
+                <footer class="grid-footer">
+                    <p>© Web Technologies 1</p>
+                </footer>
+            </div>
+        </section>
+
+        <section id="task3-section" class="section-block">
+            <h2>Image Gallery</h2>
+
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=11" alt="Gallery Image 1">
+                    <div class="overlay">
+                        <span class="caption">Mountain Peak</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=12" alt="Gallery Image 2">
+                    <div class="overlay">
+                        <span class="caption">Ocean Sunset</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=13" alt="Gallery Image 3">
+                    <div class="overlay">
+                        <span class="caption">Forest Path</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=14" alt="Gallery Image 4">
+                    <div class="overlay">
+                        <span class="caption">Urban Lights</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=15" alt="Gallery Image 5">
+                    <div class="overlay">
+                        <span class="caption">Desert Dunes</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=16" alt="Gallery Image 6">
+                    <div class="overlay">
+                        <span class="caption">Autumn Leaves</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=17" alt="Gallery Image 7">
+                    <div class="overlay">
+                        <span class="caption">Winter Snow</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=18" alt="Gallery Image 8">
+                    <div class="overlay">
+                        <span class="caption">Architecture</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://picsum.photos/400/300?random=19" alt="Gallery Image 9">
+                    <div class="overlay">
+                        <span class="caption">Starry Night</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
