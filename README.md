@@ -4,7 +4,7 @@
 
 **Course:** Web Technologies 1
 
-**Live Demo:** 
+**Live Demo:** https://alihzzz.github.io/WEB1_Assignment2/
 
 ---
 
