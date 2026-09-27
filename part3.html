@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Part 3: Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="portfolio-page">
+
+    <div class="portfolio-grid">
+
+        <header class="portfolio-header">
+            <div class="logo">
+                <a href="#">Alikhan's Portfolio</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Part 1: Flexbox</a></li>
+                    <li><a href="part2.html">Part 2: Grid</a></li>
+                    <li><a href="part3.html" class="active">Part 3: Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="portfolio-main">
+            <h2>Featured Projects</h2>
+            <p class="section-desc">Back & front-end projects.</p>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Logistics Delivery App">
+                    <div class="project-card-body">
+                        <h3>Logistics Delivery System</h3>
+                        <p>Java CLI application applying Factory Method and Abstract Factory design patterns for efficient route and package management.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>OOP</span>
+                            <span>Design Patterns</span>
+                        </div>
+                        <a href="#" class="card-btn">View Repository</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=600&q=80" alt="Divide and Conquer Algorithms">
+                    <div class="project-card-body">
+                        <h3>Algorithms Benchmark Suite</h3>
+                        <p>Comparative analysis tool and benchmark suite evaluating MergeSort, QuickSort, Deterministic Select, and Closest Pair algorithms.</p>
+                        <div class="project-tags">
+                            <span>Algorithms</span>
+                            <span>C++</span>
+                            <span>Data Structures</span>
+                        </div>
+                        <a href="#" class="card-btn">View Benchmarks</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Personal Web Portfolio">
+                    <div class="project-card-body">
+                        <h3>Tribute & Portfolio Web App</h3>
+                        <p>A responsive static web application published to GitHub Pages, demonstrating HTML5, CSS3, Flexbox, and modern web layouts.</p>
+                        <div class="project-tags">
+                            <span>HTML/CSS</span>
+                            <span>Flexbox</span>
+                            <span>GitHub Pages</span>
+                        </div>
+                        <a href="#" class="card-btn">Live Demo</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=600&q=80" alt="Database Management System">
+                    <div class="project-card-body">
+                        <h3>Relational DB & SQL Architecture</h3>
+                        <p>Schema design, index optimization, and complex querying for database management systems with RESTful service integration.</p>
+                        <div class="project-tags">
+                            <span>PostgreSQL</span>
+                            <span>REST API</span>
+                            <span>SQL</span>
+                        </div>
+                        <a href="#" class="card-btn">Learn More</a>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <aside class="portfolio-sidebar">
+            <div class="widget profile-widget">
+                <img src="avatar.jpg" alt="Alikhan Smagul profile picture" class="profile-avatar">
+                <h3>About Me</h3>
+                <p>IT Student & Backend Developer focusing on Java, System Security, Multithreading, and Web Technologies.</p>
+            </div>
+
+            <div class="widget skills-widget">
+                <h3>Tech Stack</h3>
+                <ul class="skills-list">
+                    <li>Java & Spring framework</li>
+                    <li>HTML5 / CSS3</li>
+                    <li>Git / GitHub</li>
+                    <li>PostgreSQL / Relational DBs</li>
+                    <li>Python & C++</li>
+                </ul>
+            </div>
+        </aside>
+
+        <footer class="portfolio-footer">
+            <p>© 2026 Alikhan Smagul - Web Technologies 1: Assignment 2.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
